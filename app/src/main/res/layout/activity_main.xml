@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/parrot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <TextView
+        android:id="@+id/Signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bird Up"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        />
+
+    <TextView
+        android:id="@+id/EmailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bird-mail"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <ImageView
+        android:id="@+id/Ring"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/feather"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#D3D3D3"
+        android:layout_marginTop="5dp"
+        android:hint="example@featherfall.com"
+        app:layout_constraintStart_toStartOf="@+id/EmailName"
+        app:layout_constraintTop_toBottomOf="@+id/EmailName"
+        />
+
+    <TextView
+        android:id="@+id/phoneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use RingPhone instead"
+        android:textColor="#58427c"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/emailInput"
+        app:layout_constraintTop_toBottomOf="@+id/emailInput"
+        app:layout_constraintVertical_bias="0.257"
+        />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birdentity"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="@+id/EmailName"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintTop_toBottomOf="@+id/emailInput"
+        />
+
+    <EditText
+        android:id="@+id/userNameInput"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#D3D3D3"
+        android:layout_marginTop="5dp"
+        android:hint="What's your birdentity?"
+        app:layout_constraintStart_toStartOf="@+id/userName"
+        app:layout_constraintTop_toBottomOf="@+id/userName"
+        />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Secret Birdcall"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/userNameInput"
+        app:layout_constraintTop_toBottomOf="@+id/userNameInput"
+        />
+
+    <EditText
+        android:id="@+id/passInput"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#D3D3D3"
+        android:layout_marginTop="5dp"
+        android:hint="Secret birdcall"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        />
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hatch-day"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/passInput"
+        app:layout_constraintTop_toBottomOf="@+id/passInput"
+        />
+
+    <EditText
+        android:id="@+id/birthInput"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#D3D3D3"
+        android:layout_marginTop="5dp"
+        android:hint="Your Hatch-day"
+        app:layout_constraintStart_toStartOf="@+id/birthday"
+        app:layout_constraintTop_toBottomOf="@+id/birthday"
+        />
+
+    <TextView
+        android:id="@+id/disclaimer"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="By clicking Bird Up, you are indicating that you have read and acknowledge the Terms of Service and Privacy Notice."
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        />
+
+    <Button
+        android:id="@+id/signButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Bird Up"
+        android:textAlignment="center"
+        android:layout_marginTop="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
