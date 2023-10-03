@@ -37,7 +37,7 @@ The following EXTRA features are implemented:
 
 I have chosen to duplicate the following layout from the Twitch app:
 
-![](https://designvault.io/shot/1828-0901232058/#shot-detail.png)
+https://designvault.io/shot/1828-0901232058/#shot-detail.png
 
 ## Video Demo
 
