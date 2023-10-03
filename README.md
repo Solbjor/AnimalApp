@@ -57,7 +57,7 @@ It is for an app that **brief description**.
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+I learned how to create a layout from scratch and organize the different components of it using constraint layout. 
 
 ## License
 
