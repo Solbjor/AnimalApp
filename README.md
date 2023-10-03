@@ -38,7 +38,6 @@ The following EXTRA features are implemented:
 I have chosen to duplicate the following layout from the Twitch app:
 
 ![](https://designvault.io/shot/1828-0901232058/#shot-detail.png)
-<img src='https://designvault.io/shot/1828-0901232058/#shot-detail.png' title='Video Demo' width='' alt='Video Demo' />
 
 ## Video Demo
 
