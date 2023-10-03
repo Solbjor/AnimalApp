@@ -9,7 +9,7 @@ Time spent: 3 hours spent in total
 
 Ringneck-Twitch is an android app that lets you "bird up" with a Ringneck-Twitch account including your basic information like your Bird-email, Birdentity, and Hatch-day.
 
-If I had to describe this project in three (3) emojis, they would be: 
+If I had to describe this project in three (3) emojis, they would be: 👨‍💻🐤👍🏻
 
 ## Application Features
 
